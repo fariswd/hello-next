@@ -1,0 +1,61 @@
+Arguments: 
+  /home/fariswd/.nvm/versions/node/v8.9.4/bin/node /usr/share/yarn/bin/yarn.js start
+
+PATH: 
+  /home/fariswd/.nvm/versions/node/v8.9.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/fariswd/Android/Sdk/tools:/home/fariswd/Android/Sdk/platform-tools:/home/fariswd/.vimpkg/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "project2018",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "node server.js",
+      "build": "next build",
+      "start": "next start -p 8000"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.16.3",
+      "isomorphic-unfetch": "^2.0.0",
+      "next": "^6.0.0",
+      "react": "^16.3.2",
+      "react-dom": "^16.3.2",
+      "react-markdown": "^3.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c next start -p 8000
+  Directory: /media/fariswd/FOX/project2018/hello-next
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/share/yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/share/yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/share/yarn/lib/cli.js:30281:17)
+      at emitTwo (events.js:126:13)
+      at ChildProcess.emit (events.js:214:7)
+      at maybeClose (internal/child_process.js:925:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
